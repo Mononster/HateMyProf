@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ADD67E43AFB7B320BFD348A /* Pods_TerribleHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC17F5D4385D468FB00C468 /* Pods_TerribleHack.framework */; };
+		871C30961E87226300C431CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871C30951E87226300C431CC /* Assets.xcassets */; };
+		874220D91E8701DE0069BB9B /* ProfessorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874220D81E8701DE0069BB9B /* ProfessorViewController.swift */; };
+		874220DC1E8702720069BB9B /* RatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874220DA1E8702720069BB9B /* RatingTableViewCell.swift */; };
+		874220DD1E8702720069BB9B /* RatingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 874220DB1E8702720069BB9B /* RatingTableViewCell.xib */; };
+		874220E01E870B8E0069BB9B /* ProfNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874220DE1E870B8E0069BB9B /* ProfNameTableViewCell.swift */; };
+		874220E11E870B8E0069BB9B /* ProfNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 874220DF1E870B8E0069BB9B /* ProfNameTableViewCell.xib */; };
+		875494351E870ECA001E8DA2 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875494331E870ECA001E8DA2 /* ImageTableViewCell.swift */; };
+		875494361E870ECA001E8DA2 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875494341E870ECA001E8DA2 /* ImageTableViewCell.xib */; };
 		877CFA051E86DB4300F3421C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA041E86DB4300F3421C /* AppDelegate.swift */; };
-		877CFA071E86DB4300F3421C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA061E86DB4300F3421C /* ViewController.swift */; };
-		877CFA0A1E86DB4300F3421C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877CFA081E86DB4300F3421C /* Main.storyboard */; };
-		877CFA0C1E86DB4300F3421C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877CFA0B1E86DB4300F3421C /* Assets.xcassets */; };
+		877CFA071E86DB4300F3421C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA061E86DB4300F3421C /* MainViewController.swift */; };
 		877CFA0F1E86DB4300F3421C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877CFA0D1E86DB4300F3421C /* LaunchScreen.storyboard */; };
 		877CFA1A1E86DB4300F3421C /* TerribleHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA191E86DB4300F3421C /* TerribleHackTests.swift */; };
 		877CFA251E86DB4300F3421C /* TerribleHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA241E86DB4300F3421C /* TerribleHackUITests.swift */; };
+		877CFA331E86DC2700F3421C /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA321E86DC2700F3421C /* MainNavigationController.swift */; };
+		877CFA381E86EB6A00F3421C /* SelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA361E86EB6A00F3421C /* SelectionTableViewCell.swift */; };
+		877CFA391E86EB6A00F3421C /* SelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877CFA371E86EB6A00F3421C /* SelectionTableViewCell.xib */; };
+		877CFA451E87001900F3421C /* ClassSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA3E1E87001900F3421C /* ClassSection.swift */; };
+		877CFA461E87001900F3421C /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA3F1E87001900F3421C /* JSON.swift */; };
+		877CFA471E87001900F3421C /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA401E87001900F3421C /* Professor.swift */; };
+		877CFA481E87001900F3421C /* RateProfSpider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA411E87001900F3421C /* RateProfSpider.swift */; };
+		877CFA491E87001900F3421C /* ScheduleConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA421E87001900F3421C /* ScheduleConstructor.swift */; };
+		877CFA4A1E87001900F3421C /* ScheduleGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA431E87001900F3421C /* ScheduleGraph.swift */; };
+		877CFA4B1E87001900F3421C /* WatSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CFA441E87001900F3421C /* WatSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EC9E145ABB8D3F5FF6DE8F8 /* Pods-TerribleHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerribleHack.release.xcconfig"; path = "Pods/Target Support Files/Pods-TerribleHack/Pods-TerribleHack.release.xcconfig"; sourceTree = "<group>"; };
+		871C30951E87226300C431CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		874220D81E8701DE0069BB9B /* ProfessorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessorViewController.swift; sourceTree = "<group>"; };
+		874220DA1E8702720069BB9B /* RatingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingTableViewCell.swift; sourceTree = "<group>"; };
+		874220DB1E8702720069BB9B /* RatingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingTableViewCell.xib; sourceTree = "<group>"; };
+		874220DE1E870B8E0069BB9B /* ProfNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfNameTableViewCell.swift; sourceTree = "<group>"; };
+		874220DF1E870B8E0069BB9B /* ProfNameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfNameTableViewCell.xib; sourceTree = "<group>"; };
+		875494331E870ECA001E8DA2 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		875494341E870ECA001E8DA2 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 		877CFA011E86DB4300F3421C /* TerribleHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerribleHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		877CFA041E86DB4300F3421C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		877CFA061E86DB4300F3421C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		877CFA091E86DB4300F3421C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		877CFA0B1E86DB4300F3421C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		877CFA061E86DB4300F3421C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		877CFA0E1E86DB4300F3421C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		877CFA101E86DB4300F3421C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		877CFA151E86DB4300F3421C /* TerribleHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerribleHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +71,18 @@
 		877CFA201E86DB4300F3421C /* TerribleHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerribleHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		877CFA241E86DB4300F3421C /* TerribleHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerribleHackUITests.swift; sourceTree = "<group>"; };
 		877CFA261E86DB4300F3421C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877CFA321E86DC2700F3421C /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		877CFA361E86EB6A00F3421C /* SelectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTableViewCell.swift; sourceTree = "<group>"; };
+		877CFA371E86EB6A00F3421C /* SelectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionTableViewCell.xib; sourceTree = "<group>"; };
+		877CFA3E1E87001900F3421C /* ClassSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassSection.swift; sourceTree = "<group>"; };
+		877CFA3F1E87001900F3421C /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		877CFA401E87001900F3421C /* Professor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		877CFA411E87001900F3421C /* RateProfSpider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateProfSpider.swift; sourceTree = "<group>"; };
+		877CFA421E87001900F3421C /* ScheduleConstructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleConstructor.swift; sourceTree = "<group>"; };
+		877CFA431E87001900F3421C /* ScheduleGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleGraph.swift; sourceTree = "<group>"; };
+		877CFA441E87001900F3421C /* WatSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatSwift.swift; sourceTree = "<group>"; };
+		8FC17F5D4385D468FB00C468 /* Pods_TerribleHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TerribleHack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CF6C3F318D7BA9A7A19DC6 /* Pods-TerribleHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerribleHack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TerribleHack/Pods-TerribleHack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADD67E43AFB7B320BFD348A /* Pods_TerribleHack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +111,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		556A7F4E29705465A20EEC3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FC17F5D4385D468FB00C468 /* Pods_TerribleHack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		877CF9F81E86DB4300F3421C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +126,8 @@
 				877CFA181E86DB4300F3421C /* TerribleHackTests */,
 				877CFA231E86DB4300F3421C /* TerribleHackUITests */,
 				877CFA021E86DB4300F3421C /* Products */,
+				C4CBCE957A522EBE936BC96C /* Pods */,
+				556A7F4E29705465A20EEC3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +144,13 @@
 		877CFA031E86DB4300F3421C /* TerribleHack */ = {
 			isa = PBXGroup;
 			children = (
+				877CFA3D1E87001900F3421C /* Models */,
+				877CFA351E86E9EC00F3421C /* Views */,
+				877CFA341E86E9CF00F3421C /* ViewContollers */,
 				877CFA041E86DB4300F3421C /* AppDelegate.swift */,
-				877CFA061E86DB4300F3421C /* ViewController.swift */,
-				877CFA081E86DB4300F3421C /* Main.storyboard */,
-				877CFA0B1E86DB4300F3421C /* Assets.xcassets */,
 				877CFA0D1E86DB4300F3421C /* LaunchScreen.storyboard */,
 				877CFA101E86DB4300F3421C /* Info.plist */,
+				871C30951E87226300C431CC /* Assets.xcassets */,
 			);
 			path = TerribleHack;
 			sourceTree = "<group>";
@@ -125,6 +173,54 @@
 			path = TerribleHackUITests;
 			sourceTree = "<group>";
 		};
+		877CFA341E86E9CF00F3421C /* ViewContollers */ = {
+			isa = PBXGroup;
+			children = (
+				877CFA061E86DB4300F3421C /* MainViewController.swift */,
+				877CFA321E86DC2700F3421C /* MainNavigationController.swift */,
+				874220D81E8701DE0069BB9B /* ProfessorViewController.swift */,
+			);
+			name = ViewContollers;
+			sourceTree = "<group>";
+		};
+		877CFA351E86E9EC00F3421C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				877CFA361E86EB6A00F3421C /* SelectionTableViewCell.swift */,
+				877CFA371E86EB6A00F3421C /* SelectionTableViewCell.xib */,
+				874220DA1E8702720069BB9B /* RatingTableViewCell.swift */,
+				874220DB1E8702720069BB9B /* RatingTableViewCell.xib */,
+				874220DE1E870B8E0069BB9B /* ProfNameTableViewCell.swift */,
+				874220DF1E870B8E0069BB9B /* ProfNameTableViewCell.xib */,
+				875494331E870ECA001E8DA2 /* ImageTableViewCell.swift */,
+				875494341E870ECA001E8DA2 /* ImageTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		877CFA3D1E87001900F3421C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				877CFA3E1E87001900F3421C /* ClassSection.swift */,
+				877CFA3F1E87001900F3421C /* JSON.swift */,
+				877CFA401E87001900F3421C /* Professor.swift */,
+				877CFA411E87001900F3421C /* RateProfSpider.swift */,
+				877CFA421E87001900F3421C /* ScheduleConstructor.swift */,
+				877CFA431E87001900F3421C /* ScheduleGraph.swift */,
+				877CFA441E87001900F3421C /* WatSwift.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4CBCE957A522EBE936BC96C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8CF6C3F318D7BA9A7A19DC6 /* Pods-TerribleHack.debug.xcconfig */,
+				3EC9E145ABB8D3F5FF6DE8F8 /* Pods-TerribleHack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 877CFA291E86DB4300F3421C /* Build configuration list for PBXNativeTarget "TerribleHack" */;
 			buildPhases = (
+				EC5E643CE14A00E62C53D1F5 /* [CP] Check Pods Manifest.lock */,
 				877CF9FD1E86DB4300F3421C /* Sources */,
 				877CF9FE1E86DB4300F3421C /* Frameworks */,
 				877CF9FF1E86DB4300F3421C /* Resources */,
+				3169B8E9EAB3F20E935B9185 /* [CP] Embed Pods Frameworks */,
+				083A244FD61127610E1BEBAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +334,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874220DD1E8702720069BB9B /* RatingTableViewCell.xib in Resources */,
 				877CFA0F1E86DB4300F3421C /* LaunchScreen.storyboard in Resources */,
-				877CFA0C1E86DB4300F3421C /* Assets.xcassets in Resources */,
-				877CFA0A1E86DB4300F3421C /* Main.storyboard in Resources */,
+				877CFA391E86EB6A00F3421C /* SelectionTableViewCell.xib in Resources */,
+				875494361E870ECA001E8DA2 /* ImageTableViewCell.xib in Resources */,
+				871C30961E87226300C431CC /* Assets.xcassets in Resources */,
+				874220E11E870B8E0069BB9B /* ProfNameTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +359,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		083A244FD61127610E1BEBAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TerribleHack/Pods-TerribleHack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3169B8E9EAB3F20E935B9185 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TerribleHack/Pods-TerribleHack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5E643CE14A00E62C53D1F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		877CF9FD1E86DB4300F3421C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877CFA071E86DB4300F3421C /* ViewController.swift in Sources */,
+				877CFA471E87001900F3421C /* Professor.swift in Sources */,
+				877CFA4A1E87001900F3421C /* ScheduleGraph.swift in Sources */,
+				877CFA481E87001900F3421C /* RateProfSpider.swift in Sources */,
+				874220E01E870B8E0069BB9B /* ProfNameTableViewCell.swift in Sources */,
+				877CFA451E87001900F3421C /* ClassSection.swift in Sources */,
+				877CFA381E86EB6A00F3421C /* SelectionTableViewCell.swift in Sources */,
+				877CFA071E86DB4300F3421C /* MainViewController.swift in Sources */,
+				877CFA461E87001900F3421C /* JSON.swift in Sources */,
+				877CFA4B1E87001900F3421C /* WatSwift.swift in Sources */,
 				877CFA051E86DB4300F3421C /* AppDelegate.swift in Sources */,
+				877CFA491E87001900F3421C /* ScheduleConstructor.swift in Sources */,
+				874220D91E8701DE0069BB9B /* ProfessorViewController.swift in Sources */,
+				875494351E870ECA001E8DA2 /* ImageTableViewCell.swift in Sources */,
+				874220DC1E8702720069BB9B /* RatingTableViewCell.swift in Sources */,
+				877CFA331E86DC2700F3421C /* MainNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +462,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		877CFA081E86DB4300F3421C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				877CFA091E86DB4300F3421C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		877CFA0D1E86DB4300F3421C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,10 +568,12 @@
 		};
 		877CFA2A1E86DB4300F3421C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CF6C3F318D7BA9A7A19DC6 /* Pods-TerribleHack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89449AARGW;
 				INFOPLIST_FILE = TerribleHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Marvin.TerribleHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +583,12 @@
 		};
 		877CFA2B1E86DB4300F3421C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC9E145ABB8D3F5FF6DE8F8 /* Pods-TerribleHack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89449AARGW;
 				INFOPLIST_FILE = TerribleHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Marvin.TerribleHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +673,7 @@
 				877CFA2B1E86DB4300F3421C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		877CFA2C1E86DB4300F3421C /* Build configuration list for PBXNativeTarget "TerribleHackTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +682,7 @@
 				877CFA2E1E86DB4300F3421C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		877CFA2F1E86DB4300F3421C /* Build configuration list for PBXNativeTarget "TerribleHackUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +691,7 @@
 				877CFA311E86DB4300F3421C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
